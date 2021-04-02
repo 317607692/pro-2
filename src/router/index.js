@@ -1,15 +1,40 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+// import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
+    routes: [
+        {
+            path: '/test',
+            name: 'test',
+            meta: {
+                title: 'test',
+                auth: false,
+                roles: [],
+            },
+            component: () => import('@/view/test.vue'),
+        }, {
+            path: '/index',
+            name: 'index',
+            meta: {
+                title: 'index',
+                auth: false,
+                roles: [],
+            },
+            component: () => import('@/view/index.vue'),
+            children: [
+                {
+                    path: 'test',
+                    meta: {
+                        title: 'test',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/test/test.vue'),
+                }
+            ]
+        },
+    ]
 })

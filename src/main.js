@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+// xml 2 json
+import x2js from 'x2js'
+Vue.prototype.$x2js = new x2js()
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
