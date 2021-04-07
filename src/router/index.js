@@ -7,6 +7,16 @@ Vue.use(Router)
 export default new Router({
     routes: [
         {
+            path: '/',
+            name: 'main',
+            meta: {
+                title: 'main',
+                auth: false,
+                roles: [],
+            },
+            component: () => import('@/view/main/index.vue'),
+        },
+        {
             path: '/test',
             name: 'test',
             meta: {
