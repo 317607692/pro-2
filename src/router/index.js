@@ -88,6 +88,26 @@ export default new Router({
                     },
                     component: () => import('@/view/page/manage/mine/index.vue'),
                 },
+                {
+                    name: "pb-css",
+                    path: 'pb-css',
+                    meta: {
+                        title: 'pb-css',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/github/pb-css.vue'),
+                },
+                {
+                    name: "doc",
+                    path: 'doc',
+                    meta: {
+                        title: 'doc',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/doc/index.vue'),
+                },
             ]
         },
     ]
