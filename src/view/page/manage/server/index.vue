@@ -14,9 +14,9 @@
                     <el-table-column label="性感地址，点击就跳" width="auto">
                         <template slot-scope="scope">
                             <div>
-                                <a :href="scope.row.href" target="_blank">{{
-                                    scope.row.href
-                                }}</a>
+                                <a :href="scope.row.href" target="_blank">
+                                    {{ scope.row.href }}
+                                </a>
                             </div>
                         </template>
                     </el-table-column>
