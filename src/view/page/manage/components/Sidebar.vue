@@ -61,7 +61,7 @@ export default {
             collapse: false,
             items: [
                 {
-                    icon: 'el-icon-s-home',
+                    icon: 'fa fa-home',
                     index: 'dashboard',
                     title: '乱七八糟 の 首页'
                 },
@@ -82,7 +82,7 @@ export default {
                 },
                 {
                     icon: 'fa fa-github',
-                    index: '',
+                    index: '#github',
                     title: 'Github の Repository',
                     subs: [
                         {
@@ -93,9 +93,20 @@ export default {
                     ]
                 },
                 {
-                    icon: 'fa fa-bitcoin',
+                    icon: 'fa fa-hourglass-2',
                     index: 'doc',
                     title: '总之就是有用 の 东西'
+                },
+                {
+                    icon: 'fa fa-bomb',
+                    index: '#lab',
+                    title: '实验 の 室',
+                    subs: [
+                        {
+                            index: 'ruffle',
+                            title: 'ruffle',
+                        },
+                    ]
                 },
             ]
         };

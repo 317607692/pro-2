@@ -108,6 +108,16 @@ export default new Router({
                     },
                     component: () => import('@/view/page/manage/doc/index.vue'),
                 },
+                {
+                    name: "ruffle",
+                    path: 'ruffle',
+                    meta: {
+                        title: 'ruffle',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/lab/ruffle.vue'),
+                },
             ]
         },
     ]

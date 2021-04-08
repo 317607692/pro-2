@@ -15,6 +15,9 @@
                     :options="options1"
                 ></s-chart>
             </div>
+            <div>
+                http://120.79.94.65:9000/files/Ruffle/index.html
+            </div>
         </el-card>
         <el-card shadow="hover" style="height: 252px">
             <div slot="header" class="clearfix">
