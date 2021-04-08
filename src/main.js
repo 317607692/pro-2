@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// font awsome
+import 'font-awesome/css/font-awesome.css'
 // element ui
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';

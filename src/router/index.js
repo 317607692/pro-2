@@ -25,15 +25,19 @@ export default new Router({
                 roles: [],
             },
             component: () => import('@/view/test.vue'),
+            children: [
+                
+            ]
         }, {
-            path: '/index',
-            name: 'index',
+            path: '/manage',
+            name: 'manage',
+            redirect: '/manage/dashboard',
             meta: {
-                title: 'index',
+                title: 'manage',
                 auth: false,
                 roles: [],
             },
-            component: () => import('@/view/index.vue'),
+            component: () => import('@/view/page/manage/index.vue'),
             children: [
                 {
                     path: 'test',
@@ -43,7 +47,47 @@ export default new Router({
                         roles: [],
                     },
                     component: () => import('@/view/test/test.vue'),
-                }
+                },
+                {
+                    name: "dashboard",
+                    path: 'dashboard',
+                    meta: {
+                        title: '首页',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/dash-board/index.vue'),
+                },
+                {
+                    name: "server",
+                    path: 'server',
+                    meta: {
+                        title: '服务器上的项目',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/server/index.vue'),
+                },
+                {
+                    name: "termux",
+                    path: 'termux',
+                    meta: {
+                        title: 'termux',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/termux/list.vue'),
+                },
+                {
+                    name: "mine",
+                    path: 'mine',
+                    meta: {
+                        title: 'mine',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/mine/index.vue'),
+                },
             ]
         },
     ]
