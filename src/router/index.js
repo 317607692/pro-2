@@ -5,6 +5,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -117,6 +118,26 @@ export default new Router({
                         roles: [],
                     },
                     component: () => import('@/view/page/manage/lab/ruffle.vue'),
+                },
+                {
+                    name: "editor",
+                    path: 'editor',
+                    meta: {
+                        title: 'editor',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/lab/editor.vue'),
+                },
+                {
+                    name: "admin",
+                    path: 'admin',
+                    meta: {
+                        title: 'admin',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/admin/index.vue'),
                 },
             ]
         },

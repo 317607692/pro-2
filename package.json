@@ -14,10 +14,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.8",
     "babel-polyfill": "^6.26.0",
     "element-ui": "^2.15.1",
     "font-awesome": "^4.7.0",
     "three": "^0.127.0",
+    "tinymce": "^5.7.1",
     "vue": "^2.5.2",
     "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.0.1",

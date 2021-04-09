@@ -106,6 +106,21 @@ export default {
                             index: 'ruffle',
                             title: 'ruffle',
                         },
+                        {
+                            index: 'editor',
+                            title: 'editor',
+                        },
+                    ]
+                },
+                {
+                    icon: 'fa fa-cog',
+                    index: '#admin',
+                    title: '鹳狸猿 の 后台',
+                    subs: [
+                        {
+                            index: 'admin',
+                            title: 'index',
+                        },
                     ]
                 },
             ]
