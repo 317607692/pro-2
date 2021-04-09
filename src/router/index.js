@@ -130,6 +130,16 @@ export default new Router({
                     component: () => import('@/view/page/manage/lab/editor.vue'),
                 },
                 {
+                    name: "three-js",
+                    path: 'three-js',
+                    meta: {
+                        title: 'three-js',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/lab/three-js.vue'),
+                },
+                {
                     name: "admin",
                     path: 'admin',
                     meta: {

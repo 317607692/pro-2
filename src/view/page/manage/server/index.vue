@@ -9,7 +9,7 @@
             <div class="clearfix">
                 <el-table :data="tableData" style="width: 100%">
                     <el-table-column type="index" label="#"> </el-table-column>
-                    <el-table-column prop="title" label="项目名" width="180">
+                    <el-table-column prop="title" label="项目名" width="300">
                     </el-table-column>
                     <el-table-column label="性感地址，点击就跳" width="auto">
                         <template slot-scope="scope">
@@ -44,6 +44,10 @@ export default {
                 {
                     title: "thirteen的服务器",
                     href: "http://47.111.70.53:8787/#/",
+                },
+                {
+                    title: "Hover.css备用（官网已炸，github还在）",
+                    href: "http://120.79.94.65:9000/files/Hover-master/",
                 }
             ]
         }

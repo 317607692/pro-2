@@ -110,6 +110,10 @@ export default {
                             index: 'editor',
                             title: 'editor',
                         },
+                        {
+                            index: 'three-js',
+                            title: 'three-js',
+                        },
                     ]
                 },
                 {
