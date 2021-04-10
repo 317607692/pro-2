@@ -33,26 +33,44 @@ export default {
                     title: "清华大学镜像源更换",
                     content: [{
                         text: "<a href='https://mirrors.tuna.tsinghua.edu.cn/help/termux/'>Termux 镜像源地址</a>"
-                    }, 
-                    // {
-                    //     text: "apt update && apt upgrade"
-                    // }, {
-                    //     text: "或者直接修改以下文件："
-                    // }, {
-                    //     text: "$PREFIX/etc/apt/sources.list"
-                    // }, {
-                    //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main"
-                    // }, {
-                    //     text: "$PREFIX/etc/apt/sources.list.d/science.list"
-                    // }, {
-                    //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable"
-                    // }, {
-                    //     text: "$PREFIX/etc/apt/sources.list.d/game.list"
-                    // }, {
-                    //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable"
-                    // }
+                    },
+                        // {
+                        //     text: "apt update && apt upgrade"
+                        // }, {
+                        //     text: "或者直接修改以下文件："
+                        // }, {
+                        //     text: "$PREFIX/etc/apt/sources.list"
+                        // }, {
+                        //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main"
+                        // }, {
+                        //     text: "$PREFIX/etc/apt/sources.list.d/science.list"
+                        // }, {
+                        //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable"
+                        // }, {
+                        //     text: "$PREFIX/etc/apt/sources.list.d/game.list"
+                        // }, {
+                        //     text: "deb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable"
+                        // }
                     ]
-                }
+                },
+                {
+                    title: "Git 使用 ShadowsocksR 代理",
+                    content: [
+                        {
+                            text: "其实因为ssr本来开启会开启1080端口作为代理，所以可以给git配置一下就行了"
+                        }, {
+                            text: "在项目文件中的.git文件夹的config文件中添加："
+                        }, {
+                            text: "[http]",
+                        }, {
+                            text: "proxy = socks5://127.0.0.1:1080",
+                        }, {
+                            text: "[https]",
+                        }, {
+                            text: "proxy = socks5://127.0.0.1:1080",
+                        }
+                    ]
+                },
             ]
         }
     }

@@ -2,7 +2,7 @@
     <div>
         <el-card class="box-card row-item">
             <div class="clearfix">
-                <span>Termux 一些杂七杂八的东西</span>
+                <span>Vuex 实验</span>
             </div>
         </el-card>
     </div>

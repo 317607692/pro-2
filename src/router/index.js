@@ -140,6 +140,16 @@ export default new Router({
                     component: () => import('@/view/page/manage/lab/three-js.vue'),
                 },
                 {
+                    name: "vuex",
+                    path: 'vuex',
+                    meta: {
+                        title: 'vuex',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/lab/vuex.vue'),
+                },
+                {
                     name: "admin",
                     path: 'admin',
                     meta: {

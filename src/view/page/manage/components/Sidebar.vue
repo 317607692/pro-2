@@ -114,6 +114,10 @@ export default {
                             index: 'three-js',
                             title: 'three-js',
                         },
+                        {
+                            index: 'vuex',
+                            title: 'vuex',
+                        },
                     ]
                 },
                 {
