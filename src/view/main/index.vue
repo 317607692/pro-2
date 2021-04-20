@@ -25,8 +25,8 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-@import "http://120.79.94.65:9000/files/pb-css/css/fix.css";
-@import "http://120.79.94.65:9000/files/pb-css/css/pb.css";
+@import "http://1.15.133.68:9000/files/pb-css/css/fix.css";
+@import "http://1.15.133.68:9000/files/pb-css/css/pb.css";
 .page {
     width: 100%;
     height: 100%;

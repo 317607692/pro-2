@@ -150,6 +150,16 @@ export default new Router({
                     component: () => import('@/view/page/manage/lab/vuex.vue'),
                 },
                 {
+                    name: "schart",
+                    path: 'schart',
+                    meta: {
+                        title: 'schart',
+                        auth: false,
+                        roles: [],
+                    },
+                    component: () => import('@/view/page/manage/lab/schart.vue'),
+                },
+                {
                     name: "admin",
                     path: 'admin',
                     meta: {

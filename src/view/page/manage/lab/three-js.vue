@@ -9,7 +9,7 @@
         <el-card class="box-card row-item">
             <div class="clearfix">
                 <iframe
-                    src="http://120.79.94.65:9000/files/mapTest/"
+                    src="http://1.15.133.68:9000/files/mapTest/"
                     frameborder="0"
                 ></iframe>
             </div>

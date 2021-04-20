@@ -118,6 +118,10 @@ export default {
                             index: 'vuex',
                             title: 'vuex',
                         },
+                        {
+                            index: 'schart',
+                            title: 'schart',
+                        },
                     ]
                 },
                 {

@@ -16,7 +16,7 @@
                 ></s-chart>
             </div>
             <div>
-                http://120.79.94.65:9000/files/Ruffle/index.html
+                http://1.15.133.68:9000/files/Ruffle/index.html
             </div>
         </el-card>
         <el-card shadow="hover" style="height: 252px">
@@ -74,7 +74,7 @@ export default {
 
 .main {
     position: relative;
-    min-height: 100%;
+    min-height: 300px;
     box-sizing: border-box;
     // min-height: calc(100% - @top-height - @tab-height - @content-padding * 2);
 }

@@ -32,10 +32,10 @@ export default {
             tableData: [
                 {
                     title: "轻量级网盘webd",
-                    href: "http://120.79.94.65:9212/",
+                    href: "http://1.15.133.68:9212/",
                 }, {
                     title: "nginx文件目录模式",
-                    href: "http://120.79.94.65:9000/files/",
+                    href: "http://1.15.133.68:9000/files/",
                 },
                 {
                     title: "宝塔面板",
@@ -47,7 +47,7 @@ export default {
                 },
                 {
                     title: "Hover.css备用（官网已炸，github还在）",
-                    href: "http://120.79.94.65:9000/files/Hover-master/",
+                    href: "http://1.15.133.68:9000/files/Hover-master/",
                 }
             ]
         }

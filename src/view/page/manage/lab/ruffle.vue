@@ -44,7 +44,7 @@
             <div class="clearfix" v-if="showIframe">
                 <br />
                 <iframe
-                    src="http://120.79.94.65:9000/files/Ruffle/index.html"
+                    src="http://1.15.133.68:9000/files/Ruffle/index.html"
                     frameborder="0"
                 ></iframe>
             </div>

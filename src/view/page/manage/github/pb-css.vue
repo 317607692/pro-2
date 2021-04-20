@@ -25,8 +25,8 @@
                 </p>
                 <p>
                     演示地址：
-                    <a href="http://120.79.94.65:9000/files/pb-css/">
-                        http://120.79.94.65:9000/files/pb-css/
+                    <a href="http://1.15.133.68:9000/files/pb-css/">
+                        http://1.15.133.68:9000/files/pb-css/
                     </a>
                 </p>
                 <p>
@@ -50,7 +50,7 @@
             <div class="clearfix" v-if="showIframe">
                 <br/>
                 <iframe
-                    src="http://120.79.94.65:9000/files/pb-css/"
+                    src="http://1.15.133.68:9000/files/pb-css/"
                     frameborder="0"
                 ></iframe>
             </div>
